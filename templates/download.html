@@ -1,0 +1,45 @@
+﻿$def with(data = '')
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="zengshuchang" http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <title>舒畅牌网盘</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+    <style>
+        p { margin-top:0px;
+            margin-left:20px;
+            text-align:center;
+        }
+       span {
+            text-align:center;
+       }
+    </style>
+</head>
+<body style ="background-color:#999;margin:0,auto; ">
+    <h1 style=" margin-left:250px;">网盘内容:</h1>
+    <form class="form-horizontal" enctype="multipart/form-data" action="/" method="post">
+
+						<button type="submit" class="btn-primary">返回首页</button>
+
+			</form>
+    <div style="border:1px solid; width:980px; height:100%;margin-left:250px;float:left;">
+        <span style="width:326px;height:100%;float:left;">文件名</span>
+        <span style="width:326px;height:100%;float:left;">上传时间</span>
+        <span style="width:326px;height:100%;float:left;">下载次数</span>
+
+        $for line in data:
+        <div id="name" style="width:326px;height:100%;float:left;">
+
+            <a href ="$:line.link|urlencode"><p>$:line.filename</p></a>
+        </div> 
+        <div id="time" style="width:326px;height:100%;float:left;">
+
+            <p>$:line.time</p>
+        </div>  
+        <div id="count" style="width:326px;height:100%;float:left;">
+
+            <p>$:line.download</p>
+        </div>
+    </div>
+</body>
+</html>

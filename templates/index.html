@@ -1,0 +1,40 @@
+﻿
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>舒畅牌文件分享系统</title>
+		<link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+		<style>
+		 *{margin:0;padding:0;}
+             	 .ti{line-height:80px;text-align:center;font-weight:300;color:#000000;font-size: 30px;}
+		</style>
+	</head>
+	<body>
+	<div class="ti">
+	<span>舒畅牌文件分享系统</span>
+	</div>
+		<div class="container">
+			<h1 class="page-header">分享文件</h1>
+			<form class="form-horizontal" enctype="multipart/form-data" action="/upload" method="post">
+				<div class="form-group">
+					<div class="col-md-5">
+						<input type="file" name="file" />
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-5">
+						<button type="submit" class="btn-primary">上   传</button>						
+					</div>
+					
+				</div>
+			</form>
+			<form class="form-horizontal" enctype="multipart/form-data" action="/download" method="post">
+									
+						<button type="submit" class="btn-primary">进入下载页面</button>
+				
+			</form>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,64 @@
+卷 文档 的文件夹 PATH 列表
+卷序列号为 000D-D303
+E:.
+│  cmd.bat
+│  getTree.bat
+│  mycloud.exe
+│  mycloud.py
+│  mycloud.pyc
+│  mycloud.spec
+│  reademe.md
+│  tree.txt
+│  
+├─build
+│  └─mycloud
+│          logdict2.7.10.final.0-1.log
+│          mycloud.exe.manifest
+│          out00-Analysis.toc
+│          out00-EXE.toc
+│          out00-PKG.pkg
+│          out00-PKG.toc
+│          out00-PYZ.pyz
+│          out00-PYZ.toc
+│          warnmycloud.txt
+│          
+├─dist
+├─static
+│  ├─css
+│  │      bootstrap-theme.css
+│  │      bootstrap-theme.css.map
+│  │      bootstrap-theme.min.css
+│  │      bootstrap.css
+│  │      bootstrap.css.map
+│  │      bootstrap.min.css
+│  │      
+│  ├─files
+│  │      1.jpg
+│  │      3-15素材.zip
+│  │      666.zip
+│  │      data.txt
+│  │      IMG_20170214_134025.jpg
+│  │      network.py
+│  │      video_20170211_201800.mp4
+│  │      书法字典.apk
+│  │      
+│  ├─fonts
+│  │      glyphicons-halflings-regular.eot
+│  │      glyphicons-halflings-regular.svg
+│  │      glyphicons-halflings-regular.ttf
+│  │      glyphicons-halflings-regular.woff
+│  │      
+│  ├─img
+│  │      favicon.ico
+│  │      logo.png
+│  │      
+│  └─js
+│          bootstrap.js
+│          bootstrap.min.js
+│          jquery-3.1.1.min.js
+│          npm.js
+│          
+└─templates
+        download.html
+        index.html
+        
